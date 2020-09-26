@@ -1,0 +1,174 @@
+body{
+   background-color: darkslategray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font: bold 30px arial, helvetica, sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font: bold 20px arial, helvetica, sans-serif;
+}
+.js-bookmark-form{
+    display: flex;
+    flex-direction: row;
+}
+#cancelBtn{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 6px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    overflow: visible;
+    font: bold 13px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(66, 113, 134);
+}
+#createBtn{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 6px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    overflow: visible;
+    font: bold 13px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(66, 113, 134);
+}
+#submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.delete-item{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 6px 20px;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    overflow: visible;
+    font: bold 13px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(66, 113, 134);
+}
+#stars{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#bookmark-url{
+    width: 30%;
+}
+#bookmark-title{
+    margin-top: 15px;
+    width: 30%;
+}
+#js-bookmark-submit-form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+#description{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    text-align: center;
+}
+i.fa-star{
+   margin-right: .2rem;
+   float: right; 
+}
+.visit{
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        padding: 6px 20px;
+        margin: 5px;
+        cursor: pointer;
+        border: 1px solid #bbb;
+        overflow: visible;
+        font: bold 13px arial, helvetica, sans-serif;
+        text-decoration: none;
+        white-space: nowrap;
+        color: rgb(66, 113, 134);
+}
+.delete-item{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 6px 20px;
+    text-align: right;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    overflow: visible;
+    font: bold 13px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(66, 113, 134);
+}
+.discriptor{
+    background-color: cyan;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxed{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width:60%;
+    margin-left: 20%;
+    margin-top: 15px;
+    border: 3px solid rgb(206, 227, 228);
+}
+select:invalid{
+    color:gray;
+}
+option{
+    color:black;
+}
+.checked {
+    color: orange;
+}
+.bookmark-item {
+    display: block;
+    justify-content: center;
+    color: grey;
+    position: relative;
+    font-style:bold;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(75, 210, 214);
+  }
+
+  .error-container {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .error-container * {
+    display: inline-block;
+  }
+  
+  #cancel-error {
+    margin-right: 0.5rem;
+  } 
