@@ -2,7 +2,7 @@
 
 
 
-*[LIVE DEMO](https://thinkful-ei-shark.github.io/jakel-bookmark-app/)*
+#### *[LIVE DEMO](https://thinkful-ei-shark.github.io/jakel-bookmark-app/)*
 
 -------------------------------------------------------------------------
 ## User Stories
