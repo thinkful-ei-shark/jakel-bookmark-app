@@ -1,12 +1,12 @@
 # Jakel Jenkins Bookmark App
 
-Live App:
-https://thinkful-ei-shark.github.io/jakel-bookmark-app/
 
 
-Overview:
+*[LIVE DEMO](https://thinkful-ei-shark.github.io/jakel-bookmark-app/)*
 
-As a user:
+-------------------------------------------------------------------------
+## User Stories
+*As a user:*
 
 I can add bookmarks to my bookmark list. Bookmarks contain:
 
