@@ -35,8 +35,7 @@
 * Use fetch for AJAX calls and jQuery for DOM manipulation
 
 * Use namespacing to adhere to good architecture practices
-
-* Minimal global variables
+  * Minimal global variables
   * Create modules in separate files to organize your code
   * Logically group your functions (e.g. API methods, store methods...)
  
