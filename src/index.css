@@ -1,5 +1,6 @@
 body{
-   background-color: darkslategray;
+   background-color:#494947;
+   color: #B8FFC8;
 }
 h1{
     display: flex;
@@ -63,7 +64,7 @@ h2{
     white-space: nowrap;
     color: rgb(66, 113, 134);
 }
-#stars{
+#rating{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -123,7 +124,8 @@ i.fa-star{
     color: rgb(66, 113, 134);
 }
 .discriptor{
-    background-color: cyan;
+    background-color: #0f4c58;
+    color: #D6F8D6;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -155,9 +157,18 @@ option{
     position: relative;
     font-style:bold;
     font-size: 20px;
-    color: black;
+    color: #D6F8D6;
     border: 1px solid black;
-    background-color: rgb(75, 210, 214);
+    background-color:#0f4c58;
+  }
+  .bookmark-item:hover{
+    cursor: pointer;
+  }
+  
+  .bookmark-item:focus{
+      -webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.4);
+      box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.4);
   }
 
   .error-container {
